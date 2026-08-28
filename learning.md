@@ -10,14 +10,37 @@
 - **Low:** Lowest price reached during that trading session.
 - **Close:** Price at which the stock ended trading that day.
 - **Volume:** Number of shares traded during the session.
+- **Total Return:** Overall percentage change from the first closing price to the last closing price.
+- **Daily Return:** Percentage change in the closing price from one trading day to the next.
+- **Volatility:** Measure of how much daily returns fluctuate.
+- **Moving Average:** Average price calculated over a specific number of previous trading days.
+- **Basic Trend Analysis:** Comparing the current price with a moving average to identify a simple upward or downward trend.
 
 ### Python
 
-Coming soon...
+- Variables
+- `if / else` conditions
+- Arithmetic operations
+- Conditional expressions
+- Printing formatted output
+- Working with external libraries using `import`
 
 ### Pandas
 
-Coming soon...
+- `pd.read_csv()` — Read CSV data into a DataFrame
+- `df.head()` — View first rows
+- `df.tail()` — View last rows
+- `df.shape` — Get number of rows and columns
+- `df.info()` — Inspect columns and data types
+- `df.describe()` — Get statistical summary
+- `df["Column"]` — Select a column
+- `.max()` — Find maximum value
+- `.min()` — Find minimum value
+- `.mean()` — Calculate average
+- `.iloc[]` — Access values by position
+- `.shift()` — Shift values between rows
+- `.rolling()` — Create a moving window
+- `.std()` — Calculate standard deviation
 
 ### NumPy
 
@@ -25,4 +48,19 @@ Coming soon...
 
 ### Matplotlib
 
-Coming soon...
+- `plt.plot()` — Create a line plot
+- `plt.xlabel()` — Label the X-axis
+- `plt.ylabel()` — Label the Y-axis
+- `plt.title()` — Add a chart title
+- `plt.legend()` — Display the legend
+- `plt.xticks()` — Customize X-axis tick labels
+- `plt.tight_layout()` — Adjust the layout
+- `plt.show()` — Display the chart
+
+### Data Visualization
+
+- Line charts
+- Plotting multiple data series
+- X-axis and Y-axis labels
+- Chart titles
+- Legends

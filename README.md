@@ -5,17 +5,23 @@ using Python, Pandas, NumPy, data visualization, APIs, and web development.
 
 ## 🚧 Project Status
 
-Currently working on **Phase 1 — Data Analysis**
+**Phase 1 completed ✅**
+
+Currently preparing for **Phase 2 — Market Data API**
 
 ### Phase 1 — Data Analysis
-- [ ] Load stock data
-- [ ] Explore the dataset
-- [ ] Clean the data
-- [ ] Calculate basic statistics
-- [ ] Calculate daily returns
-- [ ] Calculate moving averages
-- [ ] Analyze volatility
-- [ ] Create visualizations
+### Phase 1 — Data Analysis
+
+- [x] Load stock data
+- [x] Explore the dataset
+- [x] Clean and inspect the data
+- [x] Calculate basic statistics
+- [x] Calculate total return
+- [x] Calculate daily returns
+- [x] Calculate moving averages
+- [x] Analyze volatility
+- [x] Create stock visualizations
+- [x] Generate stock analysis report
 
 ### Phase 2 — Market Data API
 - [ ] Connect to a stock market API
