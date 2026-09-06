@@ -64,3 +64,31 @@ Coming soon...
 - X-axis and Y-axis labels
 - Chart titles
 - Legends
+
+## Phase 2 — Working with APIs
+### APIs
+
+An API (Application Programming Interface) allows one software application to communicate with another.
+
+In this project, I use the Alpha Vantage API to request real stock-market data instead of reading it from a manually downloaded CSV file.
+
+The basic flow is:
+
+User → API Request → Alpha Vantage → JSON Response → Pandas DataFrame
+### JSON
+
+JSON (JavaScript Object Notation) is a common format used to exchange data between applications.
+
+The Alpha Vantage API sends the stock data as a JSON response.
+
+The response contains information such as:
+
+- Stock metadata
+- Date
+- Open price
+- High price
+- Low price
+- Close price
+- Trading volume
+
+I use Python to extract the required stock data from the JSON response and then convert it into a Pandas DataFrame for analysis.

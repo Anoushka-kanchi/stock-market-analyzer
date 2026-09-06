@@ -6,8 +6,9 @@ using Python, Pandas, NumPy, data visualization, APIs, and web development.
 ## 🚧 Project Status
 
 **Phase 1 completed ✅**
+**Phase 2 completed ✅**
 
-Currently preparing for **Phase 2 — Market Data API**
+Currently preparing for **Phase 3 — Backend**
 
 ### Phase 1 — Data Analysis
 ### Phase 1 — Data Analysis
@@ -64,3 +65,24 @@ Currently preparing for **Phase 2 — Market Data API**
 This project is being built phase by phase to understand
 Python, data analysis, APIs, backend development, and
 eventually AI-powered data analysis.
+
+
+## Phase 2 — API-Based Stock Analysis
+
+In Phase 2, the project was upgraded to fetch real stock-market data using the Alpha Vantage API.
+
+### Features
+
+- Fetches stock data using a stock symbol
+- Converts API JSON data into a Pandas DataFrame
+- Calculates basic statistics, returns, volatility, and moving averages
+- Performs basic trend analysis
+- Visualizes closing prices and moving averages using Matplotlib
+- Saves analyzed stock data as CSV files
+- Uses `.env` to securely store the API key
+
+### How to Run
+
+```bash
+cd phase-2-api/src
+python api.py
